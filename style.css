@@ -1,0 +1,60 @@
+/* Page background */
+body {
+    font-family: Arial, sans-serif;
+    background: #e8f1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+.container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Heading style */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0057ff;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    outline: none;
+    font-size: 14px;
+}
+
+/* When input is clicked */
+input:focus {
+    border-color: #0057ff;
+    box-shadow: 0 0 5px rgba(0,87,255,0.3);
+}
+
+/* Button style */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0057ff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+button:hover {
+    background: #003ebf;
+}
